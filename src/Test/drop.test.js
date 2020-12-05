@@ -9,6 +9,6 @@ const answer = [2, 3]
 
 describe("drop", () => {
     it("Creates a slice of `array` with `n` elements dropped from the beginning.", () =>{
-        expect(filter(users)).to.eql(answer)
+        expect(drop(users)).to.eql(answer)
     });
 })

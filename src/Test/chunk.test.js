@@ -10,7 +10,7 @@ const answer = [['a', 'b'], ['c', 'd']]
 
 describe("chunk", () => {
     it("Creates an array of elements split into groups the length of `size`.", () =>{
-        expect(chunk(users, value)).to.eql(answer)
+        expect(chunk(users, 2)).to.eql(answer)
     });
 })
 

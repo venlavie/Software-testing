@@ -9,6 +9,6 @@ const answer = "Fred"
 
 describe("capitalize", () => {
     it("Converts the first character of `string` to upper case and the remaining to lower case.", () =>{
-        expect(filter(users)).to.eql(answer)
+        expect(capitalize(users)).to.eql(answer)
     });
 })

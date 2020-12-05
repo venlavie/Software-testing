@@ -8,6 +8,6 @@ const answer = "fooBar"
 
 describe("camelCase", () => {
     it("Returns the camel cased string.", () =>{
-        expect(camelCase(users).to.eql(answer))
+        expect(camelCase(users)).to.eql(answer)
     });
 })

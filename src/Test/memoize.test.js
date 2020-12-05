@@ -1,5 +1,5 @@
-import chai from "chai"
-import memoize from "../memoize.js"
+/**import chai from "chai"
+ import memoize from "../memoize.js"
 
 const expect = chai.expect 
 
@@ -15,3 +15,4 @@ describe("memoize", () => {
         expect(values(object)).to.eql(answer)
     });
 })
+*/
