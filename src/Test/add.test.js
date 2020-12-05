@@ -1,5 +1,8 @@
-import add from "../add.js";
 import chai from "chai"
+import add from "../add.js"
+
+const expect = chai.expect 
+
 
 describe("add", () => {
     it("add positive number to positive number", () =>{
