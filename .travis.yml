@@ -1,9 +1,7 @@
-sudo: false
-
 language: node_js
 
 node_js:
-  - node
+  - 14
 
 install:
   - npm install
@@ -15,4 +13,4 @@ before_script:
   - mocha --version
 
 script:
-  - npm run test
+  - npm test
